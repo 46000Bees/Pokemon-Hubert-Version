@@ -106,7 +106,7 @@ void ResetMenuAndMonGlobals(void)
 
 void NewGameInitData(void)
 {
-    u8 rivalName[PLAYER_NAME_LENGTH + 1];
+    u8 rivalName[sizeof(gSaveBlock1Ptr->rivalName)];
 
     StringCopy(rivalName, gSaveBlock1Ptr->rivalName);
     gDifferentSaveFile = TRUE;
