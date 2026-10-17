@@ -1459,11 +1459,19 @@ static void Task_OakSpeech_DoNamingScreen(u8 taskId)
 
 static void Task_OakSpeech_ConfirmName(u8 taskId)
 {
+    static const u8 sHubertName[] = _("Hubert");
+    static const u8 sMoLightName[] = _("Mo Light");
     s16 *data = gTasks[taskId].data;
     if (!gPaletteFade.active)
     {
         if (tNameNotConfirmed == TRUE)
         {
+            // Keep name entry unchanged, then store the version's fixed names.
+            if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
+                StringCopy(gSaveBlock2Ptr->playerName, sHubertName);
+            else
+                StringCopy(gSaveBlock1Ptr->rivalName, sMoLightName);
+
             if (sOakSpeechResources->hasPlayerBeenNamed == FALSE)
                 StringExpandPlaceholders(gStringVar4, gOakSpeech_Text_SoYourNameIsPlayer);
             else
