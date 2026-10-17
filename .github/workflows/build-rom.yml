@@ -1,0 +1,52 @@
+name: Build Pokemon Hubert ROM
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  build-rom:
+    name: Build FireRed ROM
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Checkout agbcc
+        uses: actions/checkout@v4
+        with:
+          repository: pret/agbcc
+          ref: da598c1d918402c42c0c0d7128ba14567f3175e9
+          path: agbcc
+          persist-credentials: false
+
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends build-essential binutils-arm-none-eabi libpng-dev pkg-config
+
+      - name: Build and install agbcc
+        working-directory: agbcc
+        run: |
+          ./build.sh
+          ./install.sh ../
+
+      - name: Compile Pokemon Hubert Version
+        run: make -j"$(nproc)" GAME_VERSION=FIRERED GAME_LANGUAGE=ENGLISH GAME_REVISION=0 MODERN=0 COMPARE=0
+
+      - name: Upload ROM
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pokemon-Hubert-Version
+          path: pokefirered.gba
+          if-no-files-found: error
+          retention-days: 30
