@@ -159,40 +159,32 @@ gOakSpeech_Text_AskPlayerGender::
     .string "Or are you a girl?$"
 
 gPikachuIntro_Text_Page1::
-    .string "In the world which you are about to\n"
-    .string "enter, you will embark on a grand\n"
-    .string "adventure with you as the hero.\n"
-    .string "\n"
-    .string "Speak to people and check things\n"
-    .string "wherever you go, be it towns, roads,\n"
-    .string "or caves. Gather information and\n"
-    .string "hints from every source.$"
+    .string "Welcome to POKéMON Hubert\n"
+    .string "Version. A tale of one lone Ice\n"
+    .string "Bowplaying ladder grinder named\n"
+    .string "HubertTerTer. You're about to\n"
+    .string "embark on a freaky$"
 
 gPikachuIntro_Text_Page2::
-    .string "New paths will open to you by helping\n"
-    .string "people in need, overcoming challenges,\n"
-    .string "and solving mysteries.\n"
-    .string "\n"
-    .string "At times, you will be challenged by\n"
-    .string "others and attacked by wild creatures.\n"
-    .string "Be brave and keep pushing on.$"
+    .string "adventure across a region full\n"
+    .string "of wild creatures, goofy\n"
+    .string "chatters, and Diddy ah blud\n"
+    .string "mods. You may face brainrotters\n"
+    .string "or worse. Be a brave kitty$"
 
 gPikachuIntro_Text_Page3::
-    .string "Through your adventure, we hope\n"
-    .string "that you will interact with all sorts\n"
-    .string "of people and achieve personal growth.\n"
-    .string "That is our biggest objective.\n"
-    .string "\n"
-    .string "Press the A Button, and let your\n"
-    .string "adventure begin!$"
+    .string "and push on. May you discover\n"
+    .string "what it means to be a freaky\n"
+    .string "streamer who scams chat, bans\n"
+    .string "mods, and bangs his feetcam into\n"
+    .string "the desk. We love you Hunter$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
+    .string "Hello, there! Glad to meet you!\p"
     .string "Welcome to the world of POKéMON!\p"
-    .string "My name is OAK.\p"
+    .string "My name is GOB.\p"
     .string "People affectionately refer to me\n"
-    .string "as the POKéMON PROFESSOR.\p$"
+    .string "as the SURGICAL GOBLIN.\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "This world…$"
@@ -217,7 +209,8 @@ gOakSpeech_Text_YourNameWhatIsIt::
 
 gOakSpeech_Text_SoYourNameIsPlayer::
     .string "Right…\n"
-    .string "So your name is {PLAYER}.$"
+    .string "That name sucks, your name is\l"
+    .string "{PLAYER}.$"
 
 gOakSpeech_Text_WhatWasHisName::
     .string "This is my grandson.\p"
@@ -229,10 +222,10 @@ gOakSpeech_Text_YourRivalsNameWhatWasIt::
     .string "Your rival's name, what was it now?$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "…Er, was it {RIVAL}?$"
+    .string "…Push YES right now.$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "That's right! I remember now!\n"
+    .string "Why did you lie to me {PLAYER}?\n"
     .string "His name is {RIVAL}!\p$"
 
 gOakSpeech_Text_LetsGo::
