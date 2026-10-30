@@ -1,19 +1,20 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
     .string "Those POKé BALLS at your waist!\n"
     .string "You have POKéMON, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+    .string "It's great that they don't have a\n"
+    .string "choice in the matter.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "This POKéMON GYM is always closed.\p"
-    .string "I wonder who the LEADER is?$"
+    .string "I guess the CR DEVS are on their\n"
+    .string "20th vacation this month.$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "VIRDIDDYAN GYM's LEADER returned!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
     .string "You want to know about the two\n"
-    .string "kinds of caterpillar POKéMON?$"
+    .string "kinds of Squirmy Worm POKéMON?$"
 
 ViridianCity_Text_OhOkayThen::
     .string "Oh, okay then!$"
@@ -25,36 +26,34 @@ ViridianCity_Text_ExplainCaterpieWeedle::
     .string "stabbed by WEEDLE's POISON STING.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
-    .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "Sorry, he's pretty drunk right now.\p"
+    .string "Give SRGL. GOB his package from the\n"
+    .string "MART!$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PEWTER CITY\n"
-    .string "occasionally.\p"
+    .string "I go to PEWTER CITY sometimes.\p"
     .string "I have to take the winding trail in\n"
-    .string "VIRIDIAN FOREST when I go.$"
+    .string "VIRDIDDYAN FOREST when I go.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
-    .string "I absolutely forbid you from\n"
-    .string "going through here!\p"
+    .string "Flip off you with your tiny gyatt!\n"
+    .string "FRICK YOU!\p"
     .string "This is private property!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "Hm?\n"
-    .string "What is that red box you have?\p"
+    .string "Well, now, I've had my Hard Vodka,\n"
+    .string "and that's what I need to get\l"
+    .string "going!\p"
+    .string "Hm? What is that red box you have?\p"
     .string "Ah, so you're working on your\n"
     .string "POKéDEX.\p"
     .string "Then let me give you a word of\n"
     .string "advice.\p"
-    .string "Whenever you catch a POKéMON,\n"
-    .string "the POKéDEX automatically updates\l"
-    .string "its data.\p"
-    .string "…You don't know how to catch\n"
-    .string "a POKéMON?\p"
+    .string "Whenever you catch a POKéMON, the\n"
+    .string "POKéDEX automatically updates its\l"
+    .string "data.\p"
+    .string "…You don't know how to catch a\n"
+    .string "POKéMON?\p"
     .string "I suppose I had better show you\n"
     .string "then!$"
 
@@ -70,10 +69,11 @@ ViridianCity_Text_WatchThatToLearnBasics::
     .string "of being a POKéMON TRAINER.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "But I made it too strong.\n"
-    .string "It gave me a headache…\p"
+    .string "Well, now, I've had my Melted Caugh\n"
+    .string "Drops, and that's what I need to\l"
+    .string "get going!\p"
+    .string "But I made it too strong. It's\n"
+    .string "making me freaky…\p"
     .string "Incidentally, are you filling your\n"
     .string "POKéDEX?\p"
     .string "At first, focus on weakening the\n"
@@ -100,8 +100,8 @@ ViridianCity_Text_TooBusyForTeachyTV::
     .string "be ill spent…$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRIDIAN CITY \n"
-    .string "The Eternally Green Paradise$"
+    .string "VIRDIDDYAN CITY\p"
+    .string "We're surrounded by mountains, help.$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
     .string "TRAINER TIPS\p"
@@ -118,7 +118,7 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "POKéMON at a POKéMON CENTER.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRIDIAN CITY POKéMON GYM$"
+    .string "VIRDIDDYAN CITY POKéMON GYM$"
 
 ViridianCity_Text_GymDoorsAreLocked::
     .string "VIRIDIAN GYM's doors are locked…$"

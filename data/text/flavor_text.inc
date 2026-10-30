@@ -20,8 +20,8 @@ Text_DishesPlatesNeatlyLinedUp::
 	.string "lined up.$"
 
 Text_Kitchen::
-	.string "It smells delicious!\n"
-	.string "Somebody's been cooking here.$"
+    .string "It smells delicious! Leftover\n"
+    .string "Filet-O-Fish here.$"
 
 Text_Dresser::
 	.string "It's a nicely made dresser.\n"
@@ -61,8 +61,8 @@ Text_Painting::
 	.string "It looks like it's feeling good.$"
 
 Text_PowerPlantMachine::
-	.string "What could this machine be?\n"
-	.string "Better not mess around with it!$"
+    .string "What could this machine be? Better\n"
+    .string "not finger it!$"
 
 Text_Telephone::
 	.string "It's a telephone.\n"

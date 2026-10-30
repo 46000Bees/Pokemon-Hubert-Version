@@ -1,11 +1,10 @@
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "Hi!\n"
-    .string "I work at a POKéMON MART.\p"
-    .string "It's part of a convenient chain\n"
-    .string "selling all sorts of items.\p"
-    .string "Please, visit us in VIRIDIAN CITY.\p"
-    .string "I know, I'll give you a sample.\n"
-    .string "Here you go!$"
+    .string "Hi! What? Yes I do have a job.\p"
+    .string "Huh? Sorry pal I dont have any\n"
+    .string "money. WAIT! DONT HURT ME!\p"
+    .string "Expired medicine? Yes I have some.\p"
+    .string "Please just take it and go! You so\n"
+    .string "freaky!$"
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
     .string "Please come see us if you need\n"
@@ -24,5 +23,5 @@ Route1_Text_CanJumpFromLedges::
 
 Route1_Text_RouteSign::
     .string "ROUTE 1\n"
-    .string "PALLET TOWN - VIRIDIAN CITY$"
+    .string "Watch out for Ladybugs!$"
 
