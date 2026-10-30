@@ -1,7 +1,7 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
     .string "DAISY: Hi, {PLAYER}!\p"
     .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's LAB.$"
+    .string "Surgical Gob's LAB.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
     .string "DAISY: {PLAYER}, I heard you had\n"
@@ -9,10 +9,9 @@ PalletTown_RivalsHouse_Text_HeardYouBattledRival::
     .string "I wish I'd seen that!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
-    .string "Grandpa asked you to run an\n"
-    .string "errand?\p"
-    .string "Gee, that's lazy of him.\n"
-    .string "Here, this will help you.$"
+    .string "Gob asked you to run an errand?\p"
+    .string "Gee, that's lazy of him. Here, this\n"
+    .string "will help you.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "{PLAYER} received a TOWN MAP\n"
@@ -42,13 +41,12 @@ PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
     .string "books on POKéMON.$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "DAISY: Hi, {PLAYER}!\n"
-    .string "Good timing.\p"
-    .string "I'm about to have some tea.\n"
-    .string "Would you like to join me?\p"
-    .string "Oh, but look.\n"
-    .string "Your POKéMON are a little dirty.\p"
-    .string "Would you like me to groom one?$"
+    .string "DAISY: Hi, {PLAYER}! Good timing.\p"
+    .string "I'm about to have some tea. Would\n"
+    .string "you like to join me?\p"
+    .string "Oh, but look. Your POKéMON are a\n"
+    .string "little dirty.\p"
+    .string "Would you like me to lick one?$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
     .string "You don't need any grooming done?\n"
