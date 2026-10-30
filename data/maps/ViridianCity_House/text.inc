@@ -11,6 +11,5 @@ ViridianCity_House_Text_Speary::
     .string "SPEARY: Tetweet!$"
 
 ViridianCity_House_Text_SpearowNameSpeary::
-    .string "SPEAROW\n"
-    .string "Name: SPEARY$"
+    .string "500 SPEAROWS lost$"
 
